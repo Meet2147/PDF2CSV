@@ -2,4 +2,4 @@ streamlit
 pandas
 tabula-py
 plotly
-java
+install-jdk
