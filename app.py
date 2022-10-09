@@ -14,7 +14,7 @@ def main():
         st.write("filename:", uploaded_file.name)
         
         if uploaded_file is not None:       
-            tabula.convert_into(uploaded_file,"result.csv",pages="all",multiple_tables = True,output_format="csv")
+            tabula.convert_into(uploaded_file,"result.csv",pages="all",output_format="csv")
             with open("result.csv", "rb") as f:
                 st.download_button(
                         label="Download data as CSV",
