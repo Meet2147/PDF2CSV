@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import tabula
+import io
 import streamlit.components.v1 as components
 import plotly.express as px
 
